@@ -1,0 +1,20 @@
+{
+  "name": "DesktopMeMer",
+  "main": "index.html",
+  "window": {
+    "frame": true,
+    "toolbar": false,
+    "resizable": true,
+    "fullscreen": false,
+    "transparent": false,
+    "icon": "icon.png"
+  },
+  "node-remote": "<all_urls>",
+  "chromium-args": "--autoplay-policy=no-user-gesture-required",
+  "scripts": {
+    "start": "nw ."
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16"
+  }
+}
