@@ -1,5 +1,5 @@
 @echo off
-@title --Setup Tool--
+@title -- Setup Tool --
 cls
 echo ////////////////////////////////////////////////////////////////////
 echo Titimousse Project Building Tool Setup
